@@ -121,3 +121,8 @@ void ThongTinNhanVien::on_pushButton_Sua_clicked()
 }
 
 
+
+void ThongTinNhanVien::on_pushButton_Xoa_clicked()
+{
+
+}

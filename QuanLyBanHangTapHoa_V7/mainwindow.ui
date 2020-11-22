@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1269</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1271</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>F:/Hình ảnh/Saved Pictures/thiet-ke-sieu-thi-mini2.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1269</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNguoiDung">
+    <property name="title">
+     <string>Quản lí người dùng</string>
+    </property>
+    <addaction name="action_NguoiDung"/>
+   </widget>
+   <widget class="QMenu" name="menuSanPham">
+    <property name="title">
+     <string>Quản lí sản phẩm</string>
+    </property>
+    <addaction name="action_SanPham"/>
+   </widget>
+   <widget class="QMenu" name="menuDonHang">
+    <property name="title">
+     <string>Quản lí đơn hàng</string>
+    </property>
+    <addaction name="action_DonHang"/>
+   </widget>
+   <widget class="QMenu" name="menuDoanhThu">
+    <property name="title">
+     <string>Thống kê doanh thu</string>
+    </property>
+    <addaction name="action_DoanhThu"/>
+   </widget>
+   <widget class="QMenu" name="menuTraCuu">
+    <property name="title">
+     <string>Tra cứu</string>
+    </property>
+    <addaction name="action_TraCuu"/>
+   </widget>
+   <widget class="QMenu" name="menuTroGiup">
+    <property name="title">
+     <string>Trợ giúp</string>
+    </property>
+    <addaction name="action_TroGiup"/>
+   </widget>
+   <addaction name="menuNguoiDung"/>
+   <addaction name="menuSanPham"/>
+   <addaction name="menuDonHang"/>
+   <addaction name="menuDoanhThu"/>
+   <addaction name="menuTraCuu"/>
+   <addaction name="menuTroGiup"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_NguoiDung">
+   <property name="text">
+    <string>Xem</string>
+   </property>
+  </action>
+  <action name="action_SanPham">
+   <property name="text">
+    <string>Xem</string>
+   </property>
+  </action>
+  <action name="action_DonHang">
+   <property name="text">
+    <string>Xem</string>
+   </property>
+  </action>
+  <action name="action_DoanhThu">
+   <property name="text">
+    <string>Xem</string>
+   </property>
+  </action>
+  <action name="action_TraCuu">
+   <property name="text">
+    <string>Xem</string>
+   </property>
+  </action>
+  <action name="action_TroGiup">
+   <property name="text">
+    <string>Xem</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

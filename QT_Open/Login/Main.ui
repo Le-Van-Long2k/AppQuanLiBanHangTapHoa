@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>27</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>F:/Hình ảnh/Saved Pictures/save.png</normaloff>F:/Hình ảnh/Saved Pictures/save.png</iconset>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>27</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>27</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDanh_m_c">
+    <property name="title">
+     <string>Danh mục</string>
+    </property>
+    <addaction name="actionCh_t_li_u"/>
+    <addaction name="separator"/>
+    <addaction name="actionNhanVien"/>
+    <addaction name="separator"/>
+    <addaction name="actionH_ng_h_a"/>
+   </widget>
+   <widget class="QMenu" name="menuH_a_n">
+    <property name="title">
+     <string>Hóa đơn</string>
+    </property>
+    <addaction name="actionH_a_n_b_n"/>
+    <addaction name="separator"/>
+    <addaction name="actionH_a_n_nh_p_h_ng"/>
+   </widget>
+   <widget class="QMenu" name="menuT_m_ki_m">
+    <property name="title">
+     <string>Tìm kiếm</string>
+    </property>
+    <addaction name="actionH_a_n"/>
+    <addaction name="separator"/>
+    <addaction name="actionH_ng"/>
+    <addaction name="separator"/>
+    <addaction name="actionKh_ch_h_ng"/>
+   </widget>
+   <widget class="QMenu" name="menuB_o_c_o">
+    <property name="title">
+     <string>Báo cáo </string>
+    </property>
+    <addaction name="actionH_ng_t_n"/>
+    <addaction name="separator"/>
+    <addaction name="actionDoanh_thu"/>
+   </widget>
+   <widget class="QMenu" name="menuTr_gi_p">
+    <property name="title">
+     <string>Trợ giúp</string>
+    </property>
+    <addaction name="actionTr_gi_p"/>
+   </widget>
+   <addaction name="menuDanh_m_c"/>
+   <addaction name="menuH_a_n"/>
+   <addaction name="menuT_m_ki_m"/>
+   <addaction name="menuB_o_c_o"/>
+   <addaction name="menuTr_gi_p"/>
+  </widget>
+  <action name="actionCh_t_li_u">
+   <property name="text">
+    <string>Chất liệu</string>
+   </property>
+  </action>
+  <action name="actionNhanVien">
+   <property name="text">
+    <string>Nhân viên</string>
+   </property>
+  </action>
+  <action name="actionH_ng_h_a">
+   <property name="text">
+    <string>Hàng hóa</string>
+   </property>
+  </action>
+  <action name="actionH_a_n_b_n">
+   <property name="text">
+    <string>Hóa đơn bán</string>
+   </property>
+  </action>
+  <action name="actionH_a_n_nh_p_h_ng">
+   <property name="text">
+    <string>Hóa đơn nhập hàng</string>
+   </property>
+  </action>
+  <action name="actionH_a_n">
+   <property name="text">
+    <string>Hóa đơn</string>
+   </property>
+  </action>
+  <action name="actionH_ng">
+   <property name="text">
+    <string>Hàng</string>
+   </property>
+  </action>
+  <action name="actionKh_ch_h_ng">
+   <property name="text">
+    <string>Khách hàng</string>
+   </property>
+  </action>
+  <action name="actionH_ng_t_n">
+   <property name="text">
+    <string>Hàng tồn</string>
+   </property>
+  </action>
+  <action name="actionDoanh_thu">
+   <property name="text">
+    <string>Doanh thu</string>
+   </property>
+  </action>
+  <action name="actionTr_gi_p">
+   <property name="text">
+    <string>Trợ giúp</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,13 @@
+release/dangnhap.o
+release/donhang.o
+release/main.o
+release/mainwindow.o
+release/nguoidung.o
+release/sanpham.o
+release/thongtinnhanvien.o
+release/moc_dangnhap.o
+release/moc_donhang.o
+release/moc_mainwindow.o
+release/moc_nguoidung.o
+release/moc_sanpham.o
+release/moc_thongtinnhanvien.o

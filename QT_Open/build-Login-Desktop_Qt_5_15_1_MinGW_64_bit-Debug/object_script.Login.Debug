@@ -1,0 +1,10 @@
+debug/DangNhap.o
+debug/danhmucnhanvien.o
+debug/main.o
+debug/mainwindow1.o
+debug/secdialog.o
+debug/qrc_icon.o
+debug/moc_DangNhap.o
+debug/moc_Main.o
+debug/moc_danhmucnhanvien.o
+debug/moc_secdialog.o

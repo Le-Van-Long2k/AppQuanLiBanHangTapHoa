@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>M1</class>
+ <widget class="QMainWindow" name="M1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>731</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>F:/Hình ảnh/Saved Pictures/hinh-nen-full-hd-1080-choi-non-moi-nay-dep_022855719.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menumenu">
+    <property name="title">
+     <string>menu</string>
+    </property>
+    <addaction name="actiondckd"/>
+    <addaction name="actionsvkv"/>
+    <addaction name="actionvfkv"/>
+   </widget>
+   <widget class="QMenu" name="menuHang_hoa">
+    <property name="title">
+     <string>Hang hoa</string>
+    </property>
+    <addaction name="actionknvklf"/>
+    <addaction name="actionfvjfklv"/>
+   </widget>
+   <addaction name="menumenu"/>
+   <addaction name="menuHang_hoa"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionknvklf">
+   <property name="text">
+    <string>knvklf</string>
+   </property>
+  </action>
+  <action name="actionfvjfklv">
+   <property name="text">
+    <string>fvjfklv</string>
+   </property>
+  </action>
+  <action name="actiondckd">
+   <property name="text">
+    <string>dckd</string>
+   </property>
+  </action>
+  <action name="actionsvkv">
+   <property name="text">
+    <string>svkv</string>
+   </property>
+  </action>
+  <action name="actionvfkv">
+   <property name="text">
+    <string>vfkv</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

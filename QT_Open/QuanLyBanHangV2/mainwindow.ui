@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuNh_n_vi_n">
+    <property name="title">
+     <string>Danh muc</string>
+    </property>
+    <addaction name="actionChat_lieu"/>
+    <addaction name="actionNhan_vien"/>
+    <addaction name="actionKhach_hang"/>
+    <addaction name="actionHang_hoa"/>
+   </widget>
+   <widget class="QMenu" name="menuHoa_don">
+    <property name="title">
+     <string>Hoa don</string>
+    </property>
+    <addaction name="actionHoa_don_ban"/>
+   </widget>
+   <widget class="QMenu" name="menuTim_kiem">
+    <property name="title">
+     <string>Tim kiem</string>
+    </property>
+    <addaction name="actionHoa_don_ban_2"/>
+    <addaction name="actionHang"/>
+    <addaction name="actionKhach_hang_2"/>
+   </widget>
+   <widget class="QMenu" name="menuBao_cao">
+    <property name="title">
+     <string>Bao cao</string>
+    </property>
+    <addaction name="actionHang_ton"/>
+    <addaction name="actionDoanh_thu"/>
+   </widget>
+   <widget class="QMenu" name="menuTro_giup">
+    <property name="title">
+     <string>Tro giup</string>
+    </property>
+    <addaction name="actionTro_giup"/>
+    <addaction name="actionVai_net"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuNh_n_vi_n"/>
+   <addaction name="menuHoa_don"/>
+   <addaction name="menuTim_kiem"/>
+   <addaction name="menuBao_cao"/>
+   <addaction name="menuTro_giup"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionChat_lieu">
+   <property name="text">
+    <string>Chat lieu</string>
+   </property>
+  </action>
+  <action name="actionNhan_vien">
+   <property name="text">
+    <string>Nhan vien</string>
+   </property>
+  </action>
+  <action name="actionKhach_hang">
+   <property name="text">
+    <string>Khach hang</string>
+   </property>
+  </action>
+  <action name="actionHang_hoa">
+   <property name="text">
+    <string>Hang hoa</string>
+   </property>
+  </action>
+  <action name="actionHoa_don_ban">
+   <property name="text">
+    <string>Hoa don ban</string>
+   </property>
+  </action>
+  <action name="actionHoa_don_ban_2">
+   <property name="text">
+    <string>Hoa don ban</string>
+   </property>
+  </action>
+  <action name="actionHang">
+   <property name="text">
+    <string>Hang</string>
+   </property>
+  </action>
+  <action name="actionKhach_hang_2">
+   <property name="text">
+    <string>Khach hang</string>
+   </property>
+  </action>
+  <action name="actionHang_ton">
+   <property name="text">
+    <string>Hang ton</string>
+   </property>
+  </action>
+  <action name="actionDoanh_thu">
+   <property name="text">
+    <string>Doanh thu</string>
+   </property>
+  </action>
+  <action name="actionTro_giup">
+   <property name="text">
+    <string>Tro giup</string>
+   </property>
+  </action>
+  <action name="actionVai_net">
+   <property name="text">
+    <string>Vai net</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

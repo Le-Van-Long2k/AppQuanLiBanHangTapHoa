@@ -236,7 +236,7 @@ p, li { white-space: pre-wrap; }
     <string>Lưu</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="pushButton_Xoa">
    <property name="geometry">
     <rect>
      <x>530</x>
@@ -246,7 +246,7 @@ p, li { white-space: pre-wrap; }
     </rect>
    </property>
    <property name="text">
-    <string>Đóng</string>
+    <string>Xóa</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_ThongTinNhanVien">

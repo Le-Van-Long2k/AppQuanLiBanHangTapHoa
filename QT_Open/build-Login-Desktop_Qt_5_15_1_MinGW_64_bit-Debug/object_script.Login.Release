@@ -1,0 +1,10 @@
+release/DangNhap.o
+release/danhmucnhanvien.o
+release/main.o
+release/mainwindow1.o
+release/secdialog.o
+release/qrc_icon.o
+release/moc_DangNhap.o
+release/moc_Main.o
+release/moc_danhmucnhanvien.o
+release/moc_secdialog.o

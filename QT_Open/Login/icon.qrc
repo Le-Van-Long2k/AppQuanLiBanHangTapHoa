@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>F:/Hình ảnh/Saved Pictures/images (1).jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>

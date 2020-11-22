@@ -1,0 +1,13 @@
+debug/dangnhap.o
+debug/donhang.o
+debug/main.o
+debug/mainwindow.o
+debug/nguoidung.o
+debug/sanpham.o
+debug/thongtinnhanvien.o
+debug/moc_dangnhap.o
+debug/moc_donhang.o
+debug/moc_mainwindow.o
+debug/moc_nguoidung.o
+debug/moc_sanpham.o
+debug/moc_thongtinnhanvien.o

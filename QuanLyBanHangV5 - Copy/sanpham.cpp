@@ -23,7 +23,43 @@ SanPham::~SanPham()
 
 void SanPham::on_pushButton_Them_clicked()
 {
+    Login conn;
+    QString ID_SanPham, TenSanPham, LoaiSanPham, GiaNhap, GiaBan, ViTri, SoLuong;
+    ID_SanPham = ui->lineEdit_ID_SanPham->text();
+    TenSanPham = ui->lineEdit_TenSanPham ->text();
+    LoaiSanPham = ui->lineEdit_LoaiSanPham ->text();
+    GiaNhap = ui->lineEdit_GiaNhap ->text();
+    GiaBan = ui->lineEdit_GiaBan ->text();
+    SoLuong = ui->lineEdit_SoLuong ->text();
 
+
+    if(!conn.connOpen())
+    {
+        qDebug()<<"Failed to open the database";
+        return;
+    }
+
+    conn.connOpen();
+    QSqlQuery qry;
+
+   qry.prepare( "INSERT INTO SanPham (ID_SanPham, TenSanPham, LoaiSanPham, GiaNhap, GiaBan, SoLuong) VALUES (:ID_SanPham, :TenSanPham, :LoaiSanPham, :GiaNhap, :GiaBan, :SoLuong)" );
+    qry.bindValue(":ID_SanPham", ID_SanPham);
+   qry.bindValue(":TenSanPham", TenSanPham);
+    qry.bindValue(":LoaiSanPham", LoaiSanPham);
+   qry.bindValue(":GiaNhap", GiaNhap);
+   qry.bindValue(":GiaBan", GiaBan);
+   qry.bindValue(":SoLuong", SoLuong);
+
+
+    if(qry.exec( ))
+    {
+      QMessageBox::critical(this,tr("Thêm"),tr("Đã Thêm"));
+      conn.connClose();
+    }
+    else
+    {
+        QMessageBox::critical(this,tr("Lỗi"), qry.lastError().text());
+    }
 }
 
 void SanPham::on_pushButton_Xem_clicked()
